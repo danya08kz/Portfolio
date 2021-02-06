@@ -1,0 +1,46 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+В этом файле описываются анимации.
+Для того чтобы добавить нужную анимацию нужно просто указать начальное положение,а после конечное.
+Пример добавления анимации:
+*[data-animation="название анимации"]{
+	начальное положение...
+}
+*animation_название анимации{
+	конечное положение...
+}
+*/
+*[data-animation="show-dw"] {
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	        transform: translateY(100%);
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	transition: 0.7s;
+}
+*.animation_show-dw{
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	        transform: translateY(0px);
+}
+*[data-animation="show-scale"] {
+	-webkit-transform: scale(0);
+	    -ms-transform: scale(0);
+	        transform: scale(0);
+	-webkit-transition-duration: 0.9s;
+	     -o-transition-duration: 0.9s;
+	        transition-duration: 0.9s;
+}
+*.animation_show-scale{
+	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
+}

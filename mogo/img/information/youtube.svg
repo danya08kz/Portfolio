@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" width="16" height="12">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #95e1d3 } 
+	</style>
+	<g id="footer">
+		<g id="1">
+			<g id="icons">
+				<path id="youtube" class="shp0" d="M13.54 0.52L8.31 0.52L2.88 0.52C1.52 0.52 0 1.43 0 2.76L0 9.38C0 10.71 1.52 11.52 2.88 11.52L8.42 11.52L13.54 11.52C14.9 11.52 16 10.71 16 9.38L16 2.76C16 1.43 14.9 0.52 13.54 0.52ZM6.96 8.57L6.93 3.53L10.44 6.07L6.96 8.57Z" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<defs>
+		<image width="37" height="35" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAjCAMAAAAkGTMsAAAAAXNSR0IB2cksfwAAADlQTFRFAAAAAAAAWprG1tPW1tOtewAAc77v///////WnAAAWprG1tPW1tOtewAAc77v///////WnAAAnNf//v49KgAAABN0Uk5T/wAAAAAAAAAAAP///////////8iYUhsAAABISURBVHicY2CgLmAkAEhVxcSMBbCwoqliY8cCODjRVXFxYwE8vGiq+PixAAFBclQxUlMVDAghZPGE6qiqUVXDSxUWQH1VhAEAzRAS5DqtHT4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="-3" y="-2" />
+</svg>

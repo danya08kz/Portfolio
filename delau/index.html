@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NewApp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="my-canvas">
+    <canvas id="myCanvas" class="p5Canvas" width="1115" height="912" style="width: 1115px; height: 912px;"></canvas>
+  </div>
+  <script src="js/d3-delaunay.js"></script>
+  <script src="js/d3-app.js"></script>
+  <script>
+    const canvas = document.getElementById("myCanvas");
+    app(canvas, d3.Delaunay, window).run();
+  </script>
+</body>
+</html>
